@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UILaunchScreen</key>
+	<dict>
+		<key>UIColorName</key>
+		<string>LaunchScreenBackgroundColor</string>
+		<key>UIImageName</key>
+		<string>LaunchScreenBackgroundImage</string>
+		<key>UIImageRespectsSafeAreaInsets</key>
+		<true/>
+	</dict>
+	<key>TSKConfiguration</key>
+	<dict>
+		<key>TSKPinnedDomains</key>
+		<dict>
+			<key>newsapi.org</key>
+			<dict>
+				<key>TSKPublicKeyHashes</key>
+				<array>
+					<string>A+L5NEZLzX9+Tzc2Y5TMTKjdRlaasLKndpTU0hrW6jI=</string>
+					<string>BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB=</string>
+				</array>
+				<key>TSKPublicKeyAlgorithms</key>
+				<array>
+					<string>TSKAlgorithmRsa2048</string>
+				</array>
+				<key>TSKIncludeSubdomains</key>
+				<true/>
+				<key>TSKEnforcePinning</key>
+				<true/>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>
